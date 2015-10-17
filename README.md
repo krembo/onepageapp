@@ -31,3 +31,13 @@ Another good thing as that once your content was loaded it saved in browser, so 
 
 There are several things that need to be fixed, to make this code more flexible, and less dependent. I'm working on it :)
 You can use this code as base for your AJAXified emplementations or whatever. Have fun!
+
+--
+
+### Parts
+
+The app has 3 modules:
+
+1. **ajax** - simple emplementation of get and post asynchoronus functions
+2. **dom** - dom updates happens here
+3. **cache** - simple variable-based cache engine
