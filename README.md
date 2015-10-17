@@ -1,2 +1,33 @@
-# onepageapp
-JS application for simplest one page site
+# OnePageApp
+JS application for simplest one page site.
+OnePageApp is a simple vanilla js application, leans on html files, loaded from server.
+For curent version to work you should have the basic page (let's call it layout),
+that will hold all the scripts and css, and basic layout.
+Then you need to load this script and initiate it with **OnePageApp.init()**
+
+----
+
+### Init()
+**init** function need to receive 3 parameters:
+* **menu** - Menu element, that holds links to all pages you want to load asynchronously
+* **container** - Container element for changing content
+* **tpl** - default html content file, e.c *'/templates/main.html'* 
+
+----
+
+### What does this code actually do?
+
+For the moment it gives you the ability to load page once and only change content part when menu links clicked.
+It also updates browser history and location bar, so back and forward buttons work correctly.
+
+If you configure your back-end to serve basic page for all paths, you will also get the nice feature of loading right page for different paths. 
+For example: *'/main'* will load content from *'/templates/main.html'*, *'/second'* will load content from *'/templates/second.html'*.
+
+Another good thing as that once your content was loaded it saved in browser, so while user navigating around your site visited pages will be served lightning fast!
+
+-----
+
+### Next stage
+
+There are several things that need to be fixed, to make this code more flexible, and less dependent. I'm working on it :)
+You can use this code as base for your AJAXified emplementations or whatever.
