@@ -8,10 +8,12 @@ Then you need to load this script and initiate it with **OnePageApp.init()**
 --
 
 ### Init()
-**init** function need to receive 3 parameters:
+**init** function need to receive 3 parameters and 2 optional:
 * **menu** - Menu element, that holds links to all pages you want to load asynchronously
 * **container** - Container element for changing content
 * **tpl** - default html content file, e.g *'/templates/main.html'* 
+* **tplBase** - (optional - default to '/'), base path for content html files, e.g *'/templates/'*
+* **basePath** - (optional -default to '/'), base path for one page app, e.g. *'/onepageapp'*
 
 --
 
