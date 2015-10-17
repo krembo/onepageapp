@@ -1,11 +1,11 @@
 # OnePageApp
-JS application for simplest one page site.
+
 OnePageApp is a simple vanilla js application, leans on html files, loaded from server.
 For curent version to work you should have the basic page (let's call it layout),
 that will hold all the scripts and css, and basic layout.
 Then you need to load this script and initiate it with **OnePageApp.init()**
 
-----
+--
 
 ### Init()
 **init** function need to receive 3 parameters:
@@ -13,7 +13,7 @@ Then you need to load this script and initiate it with **OnePageApp.init()**
 * **container** - Container element for changing content
 * **tpl** - default html content file, e.g *'/templates/main.html'* 
 
-----
+--
 
 ### What does this code actually do?
 
@@ -25,7 +25,7 @@ For example: *'/main'* will load content from *'/templates/main.html'*, *'/secon
 
 Another good thing as that once your content was loaded it saved in browser, so while user navigating around your site visited pages will be served lightning fast!
 
------
+--
 
 ### Next stage
 
