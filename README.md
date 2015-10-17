@@ -11,7 +11,7 @@ Then you need to load this script and initiate it with **OnePageApp.init()**
 **init** function need to receive 3 parameters:
 * **menu** - Menu element, that holds links to all pages you want to load asynchronously
 * **container** - Container element for changing content
-* **tpl** - default html content file, e.c *'/templates/main.html'* 
+* **tpl** - default html content file, e.g *'/templates/main.html'* 
 
 ----
 
@@ -30,4 +30,4 @@ Another good thing as that once your content was loaded it saved in browser, so 
 ### Next stage
 
 There are several things that need to be fixed, to make this code more flexible, and less dependent. I'm working on it :)
-You can use this code as base for your AJAXified emplementations or whatever.
+You can use this code as base for your AJAXified emplementations or whatever. Have fun!
